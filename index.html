@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>While You Wait</title>
+</head>
+
+<body>
+    <h1>While You Wait</h1>
+
+    <script>
+        function countDown(days) {
+            if(days==0){
+                console.log('HAPPY BIRTHDAY!!!!');
+            }
+            else if (days< 5){
+                console.log(days, 'DAYS UNTIL MY BIRTHDAY!!!');
+            }
+
+            else if (days<30) {
+                console.log(days, "days until my birthday. It's coming up!");
+            }
+            else{
+                console.log(days, 'days until my birthday. Such a long time... :(');
+            }
+        }
+
+        var daysUntilMyBirthday = 306;
+        countDown(daysUntilMyBirthday);
+
+        daysUntilMyBirthday = 55;
+        countDown(daysUntilMyBirthday);
+
+        daysUntilMyBirthday = 30;
+        countDown(daysUntilMyBirthday);
+
+        daysUntilMyBirthday = 12;
+        countDown(daysUntilMyBirthday);
+
+        daysUntilMyBirthday = 2;
+        countDown(daysUntilMyBirthday);
+
+        daysUntilMyBirthday = 0;
+        countDown(daysUntilMyBirthday);
+
+    </script>
+</body>
+
+</html>
